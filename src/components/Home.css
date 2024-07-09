@@ -1,0 +1,378 @@
+/* navbar styles */
+.logoh1{
+  padding:7px 10px 7px 13px;
+  color: #fff!important;
+  background-color: #1f1f1f!important;
+  font-size: 1rem!important;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  line-height: 1!important;
+}
+
+
+.navshape{
+    /* Adjust background color as needed */
+    position: fixed;
+    width: 80%;
+    top: 20px;
+    z-index: 2;
+    margin-left: 10%;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.4); /* Fallback color with some opacity for browsers that don't support backdrop-filter */
+  backdrop-filter: blur(10px);
+  }
+  .linking{
+    color: #1a1b1b;
+    text-decoration: none;
+  }
+  /* Carousel */
+  .caro {
+    margin-top: 0; /* Adjust this value based on your Navbar height */
+    position: relative;
+  }
+
+
+/* end of navbar styles */
+
+/* carousel styles */
+
+.captions {
+    bottom: 7%;
+    left: 8%;
+    right: auto;
+    text-align: left;
+    width: 80%;    
+    font-weight: bold;
+    transition: .5s;
+    text-shadow: 0 1px 0#1a1b1b, 
+    0 2px 0 #1a1b1b, 0 3px 0 #a4b5b9,
+    0 4px 0 #a4b5b9, 
+    0 7px 0#a4b5b9, 0 8px 0 #a4b5b9,
+    0 9px 0 #1a1b1b, 0 10px 0 #1a1b1b,
+    0 20px 30px rgba(0, 0, 0, .5);
+
+}
+@keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .captions.slide-up h3,
+  .captions.slide-up h4 {
+    opacity: 0;
+    animation: slideUp 2s ease-out forwards; /* Adjust the duration here */
+  }
+  
+  .captions.slide-up button {
+    /* If you want to apply the animation to the button as well */
+    opacity: 0;
+    animation: slideUp 2s ease-out forwards; /* Adjust the duration here */
+  }
+
+.captions h3 {
+    font-size: 20px;
+}
+
+.captions h4 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    transition: left 0.5s ease-in-out;
+    bottom: 0;
+
+}
+
+.caslimg {
+    filter: brightness(60%) contrast(100%);
+}
+
+.carbutton {
+    top: 0;
+    float: right;
+    background: transparent;
+    border: 2px solid white;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+
+}
+
+.carbutton:hover {
+    background: #fff;
+    color: black;
+}
+
+/* end of carousel styles */
+
+/* homesecond styles */
+.homesecond h4 {
+    font-size: 35px;
+    font-weight: 300;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 50px;
+}
+
+.homesecond p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+/* end of homesecond styles */
+
+/* imgcards styles */
+.imgcards {
+    padding-bottom: 100px;
+}
+
+.cdgroup {
+    width: 88%;
+    margin: auto;
+}
+
+.cd {
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 0;
+}
+
+.cdimg {
+    border-radius: 0;
+}
+
+.cdb {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.cdt {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Audiowide';
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.cdt1 {
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* end of imgcards styles*/
+
+/* imgb styles */
+.imgb {
+    height: 650px;
+    width: 100%;
+
+}
+
+.imgb img {
+    width: 100%;
+    height: 80%;
+    filter: brightness(60%) contrast(100%);
+}
+
+#imgbt1 {
+    
+    font-size: 70px;
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+    transition: .5s;
+    text-shadow: 0 1px 0#fcfffe, 
+    0 2px 0 #f5f8f8, 0 3px 0 #fafdfd,
+    
+    0 20px 30px rgb(253, 252, 252);
+
+}
+@keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .imgb {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .animated-text {
+    opacity: 0;
+    transition: opacity 2s ease-out, transform 2s ease-out;
+  }
+  
+  .imgb:hover .animated-text {
+    opacity: 1;
+    transform: translateY(0);
+    animation: slideUp 2s ease-out forwards; /* Adjust the duration here */
+  }
+/* end of imgb styles */
+
+/* twoimg styles */
+
+.bigimg {
+    padding-top: 30px;
+    width: 100%;
+    height: 90%;
+    padding-bottom: 0;
+}
+.bigimg1{
+    padding-top: 30px;
+    width: 100%;
+    height: 92%;
+    padding-bottom: 0;
+}
+.img-fluid1{
+    margin-top:-10px;
+}
+
+/* end of twoimg styles */
+/* text styles */
+.text1 {
+    text-align: center;
+    margin: auto;
+    width: 65%;
+}
+
+.texth {
+
+    text-align: center;
+    font-size: 40px;
+    font-family: Nunito, sans-serif;
+ 
+}
+.textp {
+    text-align: center;
+    font-size: 16px;
+margin-top: 50px;
+margin-bottom: 60px;
+}
+
+/* end of text styles */
+
+/* container1 styles */
+.contr{
+padding-bottom: 100px;
+}
+/*end of  container1 styles */
+
+/* pages styles */
+.pp{
+  text-align:center;
+}
+.textbox1 h2{
+  text-align: center;
+  font-size: 50px;
+  font-family: "Futura PT",sans-serif;
+  font-weight:400;
+}
+.textbox1 p{
+  text-align: center;
+  font-size: 16px;
+  font-family: "Futura PT",sans-serif;
+  margin-bottom: 80px;
+  
+}
+.pcardgroup{
+  display: flex;
+  margin: auto;
+  width: 95%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-family: "Futura PT",sans-serif;
+  margin-bottom: 150px;
+}
+.ptables1{
+  font-family: "Futura PT",sans-serif;
+  width: 70%;
+  margin: auto;
+}
+.ptables1 h2{
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.ptables1 h5{
+  font-size: 22px;
+}
+.ptables1 p{
+  font-size: 16px;
+}
+/* textlist styles */
+.textlist{
+  display: flex;
+  width: 75%;
+  margin: auto;
+}
+.list1{
+  width:40% ;
+}
+.list2{
+  display: flex;
+  flex-direction: row;
+}
+
+/* project gallery styles */
+.projtgalery{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+.projtgalery .second p{
+  text-align: justify;
+}
+.projtgalery .second img{
+  width: 100%;
+  height: 60%;
+  border: none;
+}
+.projtgalery .second2 img{
+ 
+  padding: 23px;
+}
+.projtgalery .second2 p{
+  text-align: justify;
+}
+
+/*end of  project gallery styles */
+
+/*blogs styles */
+.blogs{
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+.blogs .blogp{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: justify;
+}
+/*end of  blogs styles */

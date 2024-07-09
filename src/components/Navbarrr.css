@@ -1,0 +1,28 @@
+.logoh1{
+    padding:7px 10px 7px 13px;
+    color: #fff!important;
+    background-color: #1f1f1f!important;
+    font-size: 1rem!important;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    line-height: 1!important;
+  }
+  
+  
+  .navshape{
+      /* Adjust background color as needed */
+      position: fixed;
+      width: 80%;
+      top: 20px;
+      z-index: 2;
+      margin-left: 10%;
+      border-radius: 30px;
+      background-color: rgba(255, 255, 255, 0.4); /* Fallback color with some opacity for browsers that don't support backdrop-filter */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .linking{
+      color: #1a1b1b;
+      text-decoration: none;
+    }

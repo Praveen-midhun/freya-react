@@ -1,0 +1,13 @@
+.pcards{
+    width:400px;
+    height: 400px;
+    
+    
+}
+.pcards img{
+    width: 350px;
+    height: 350px;
+}
+.pcards h4{
+    padding-top: 30px;
+}
